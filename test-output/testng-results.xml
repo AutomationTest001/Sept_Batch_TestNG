@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="40302" started-at="2022-11-06T09:45:33 IST" finished-at="2022-11-06T09:46:13 IST">
+    <groups>
+    </groups>
+    <test name="Car Home Loan" duration-ms="18216" started-at="2022-11-06T09:45:33 IST" finished-at="2022-11-06T09:45:51 IST">
+      <class name="com.itview.testcases.CarHomeLoan_Test">
+        <test-method status="PASS" signature="openBrowserCode()[pri:0, instance:com.itview.testcases.CarHomeLoan_Test@5579bb86]" name="openBrowserCode" is-config="true" duration-ms="4225" started-at="2022-11-06T09:45:33 IST" finished-at="2022-11-06T09:45:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserCode -->
+        <test-method status="PASS" signature="test_2lakh()[pri:0, instance:com.itview.testcases.CarHomeLoan_Test@5579bb86]" name="test_2lakh" duration-ms="12848" started-at="2022-11-06T09:45:37 IST" description="Test Case to verify car home loan emi value for 2 lakh" finished-at="2022-11-06T09:45:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_2lakh -->
+        <test-method status="PASS" signature="closeBrowserCode()[pri:0, instance:com.itview.testcases.CarHomeLoan_Test@5579bb86]" name="closeBrowserCode" is-config="true" duration-ms="1092" started-at="2022-11-06T09:45:50 IST" finished-at="2022-11-06T09:45:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowserCode -->
+      </class> <!-- com.itview.testcases.CarHomeLoan_Test -->
+    </test> <!-- Car Home Loan -->
+    <test name="Credit Card" duration-ms="22051" started-at="2022-11-06T09:45:51 IST" finished-at="2022-11-06T09:46:13 IST">
+      <class name="com.itview.testcases.CreditCard_Test">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.itview.testcases.CreditCard_Test@1d7acb34]" name="beforeTest" is-config="true" duration-ms="2046" started-at="2022-11-06T09:45:51 IST" finished-at="2022-11-06T09:45:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="outstanding_20000()[pri:0, instance:com.itview.testcases.CreditCard_Test@1d7acb34]" name="outstanding_20000" duration-ms="18789" started-at="2022-11-06T09:45:53 IST" description="Test Case to verify outstanding amount for 40K" finished-at="2022-11-06T09:46:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- outstanding_20000 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.itview.testcases.CreditCard_Test@1d7acb34]" name="afterTest" is-config="true" duration-ms="1212" started-at="2022-11-06T09:46:12 IST" finished-at="2022-11-06T09:46:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.itview.testcases.CreditCard_Test -->
+    </test> <!-- Credit Card -->
+  </suite> <!-- Suite -->
+</testng-results>

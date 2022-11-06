@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <test thread-count="5" name="Test" parallel="classes">
+    <classes>
+      <class name="com.itview.testng.LoginOrangeHRM"/>
+      <class name="com.itview.testng.AllAnnotations"/>
+      <class name="com.itview.testng.HardAssertTest"/>
+      <class name="com.itview.testng.LoginTestScenario"/>
+      <class name="com.itview.testng.SoftAssertTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->
